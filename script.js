@@ -1,7 +1,7 @@
 const apiData = { //สร้างตัวแปร
     url: 'https://pokeapi.co/api/v2/',
     type: 'pokemon',
-    id: '20',
+    id: '2',
 }
 
 const {url,type,id} = apiData
