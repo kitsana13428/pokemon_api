@@ -1,7 +1,7 @@
 const apiData = { //สร้างตัวแปร
     url: 'https://pokeapi.co/api/v2/',
     type: 'pokemon',
-    id: '500',
+    id: '20',
 }
 
 const {url,type,id} = apiData
@@ -25,4 +25,8 @@ const generate = (data) => {
 const pokemon_show = document.querySelector("#pokemon_data")
 pokemon_show.innerHTML = dvHtml
 }
+
+
+
+
 

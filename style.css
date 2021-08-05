@@ -5,7 +5,10 @@
 }
 
 body{
-    
+    background-color: #4a1079;
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyv2_7brG9-4MbSC2g0Mqb5flogkWbhePYAg&usqp=CAU);
+    background-repeat: no-repeat;
+    background-position: center top; */
 }
 
 #pokemon_data{
@@ -19,10 +22,22 @@ body{
 }
 
 .pokemon_box{
+    width: 1040px;
+    margin: 0 auto;
+}
+.pokemon_box{
     margin-top: 3rem;
     padding: 6rem;
     text-align: center;
     border-radius: 15px;
-    background: #fff;
+    background: #f8cb00;
     box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.3);
 }    
+
+.pokemon_input{
+    text-align: center;
+}
+
+#input_num {
+    text-align: center;
+}
